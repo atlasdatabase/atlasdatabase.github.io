@@ -1,0 +1,56 @@
+.pu {
+  background-image: url(img/plutonium.png);
+}
+.element-holder {
+  width: 500px;
+  height: auto;
+  background-color: #442020;
+  display: block;
+  color: #FFF;
+  padding: 6px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.e-image {
+  width: 107px;
+  height: 126px;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+i {
+  width: 107px;
+  height: 126px;
+  background-repeat: no-repeat;
+  background-size: 107px 126;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 126px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.e-name {
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+}
+.e-title {
+  font-family: 'GeosansLight';
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.langswitch {
+  display: block;
+  margin-bottom: 5px; 
+}
+.container {
+  width: 350px;
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url('fonts/GeosansLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
