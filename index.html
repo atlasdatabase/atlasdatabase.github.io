@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head>
  <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>
  <link href="https://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
- <script src="js.js"></script>
- <link href="style.css" rel="stylesheet" type="text/css" />
+ <script src="https://getbootstrap.com/dist/js/bootstrap.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
  <meta charset=utf-8 />
  <title>JS Bin</title>
@@ -16,18 +14,70 @@
 <button class="lang" data-lang="br">Por</button>
   </div>
   
-  <div class="container">
-    <div class="element-holder">
-      <div class="e-image"><i class="pu"></i></div>
-      <div class="e-name">
-        <span class="e-title" data-i18n="plutonium">Plutonium</span>
-        <span class="e-type">Isotope Element - Rare</span>
+  <div class="holder">
+    <div id="titlebar" class="isotope">
+      <div class="image"><i class="plutonium"></i></div>
+      <div class="title">
+        <span class="name" data-i18n="plutonium">Plutonium</span>
+        <span class="type" data-i18n="isotope-rare">Isotope Element - Rare</span>
       </div>
     </div>
+    <div class="info isotope">
+      <span data-i18n="pu1">Extremely powerful element that can be used to charge weaponry, mining equipment and exosuit power packs.</span><p></p>
+      <span data-i18n="pu2">A vital ingredient in the creation of many advanced technologies, components and products.</span><p></p>
+      <span data-i18n="pu3">Found in red crystalline structures, and often within planetary cave networks.</span>
+    </div>
+  </div>
+  
+  <div class="holder">
+    <div id="titlebar" class="isotope">
+      <div class="image"><i class="carbon"></i></div>
+      <div class="title">
+        <span class="name" data-i18n="carbon">Carbon</span>
+        <span class="type" data-i18n="isotope-commom">Isotope Element - Commom</span>
+      </div>
+    </div>
+    <div class="info isotope">
+      <span data-i18n="c1">Important and abundant element used to recharge weaponry, mining equipment and exosuit life support.</span><p></p>
+      <span data-i18n="c2">Found in planetary trees, plants and other vegetation.</span><p></p>
+    </div>
+  </div>
+    
+  <div class="holder">
+    <div id="titlebar" class="silicate">
+      <div class="image"><i class="heridium"></i></div>
+      <div class="title">
+        <span class="name" data-i18n="heridium">Heridium</span>
+        <span class="type" data-i18n="silicate-common">Silicate Element - Common</span>
+      </div>
+    </div>
+    <div class="info silicate">
+      <span data-i18n="hr1">Element used in the creation of components vital to space exploration.</span><p></p>
+      <span data-i18n="hr2">Found in planetary terrain. Often highlighted by holographic cubes in user's visor after local scans.</span>
+    </div>
+  </div>
+  
+  <div class="holder">
+    <div id="titlebar" class="oxide">
+      <div class="image"><i class="iron"></i></div>
+      <div class="title">
+        <span class="name" data-i18n="iron">Iron</span>
+        <span class="type" data-i18n="oxide-common">Oxide Element - Common</span>
+      </div>
+    </div>
+    <div class="info oxide">
+      <span data-i18n="fe1">Mined element used to build and recharge defensive technologies.</span><p></p>
+      <span data-i18n="fe2">Found in rock formations and areas of geological interest.</span>
+    </div>
+  </div>
   
     
     
+    
+    
+    
   <!-- FlintHatchet89 -->
+  <!--
   <div class="holder">
   <table class="details">
   <tr><th colspan="2"><div class="limit"><span class="title" data-i18n="flint-hatchet">Flint Hatchet</span><span class="id"># 89</span></div></th></tr>
@@ -53,7 +103,7 @@
     </div>
   </div>
 </div>
-<!-- End FlintHatchet89 -->
+ End FlintHatchet89 -->
     
     
   </div><!-- container -->
