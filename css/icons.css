@@ -1,3 +1,16 @@
+.silicate, .silicate i{
+  background-color: #05499a;
+}
+.oxide, .oxide i{
+  background-color: #e0a10d;
+}
+.neutral, .neutral i {
+  background-color: #5FCC93;
+}
+.precious, .precious i {
+  background-color: #6F187E;
+}
+
 .carbon {
 background-image: url(https://atlasdatabase.github.io/img/e/carbon.png);
 }
@@ -91,4 +104,22 @@ background-image: url(https://atlasdatabase.github.io/img/e/platinum.png);
 }
 .units-light {
   background-image: url(https://atlasdatabase.github.io/img/icons/units-light-128.png);
+}
+
+.life-support {
+  background-image: url(https://atlasdatabase.github.io/img/tech/life-support.png);
+}
+.jetpack-mod {
+  background-image: url(https://atlasdatabase.github.io/img/tech/jetpack-mod.png);
+}
+.jetpack-tech {
+  background-image: url(https://atlasdatabase.github.io/img/tech/jettech.png);
+}
+
+
+@font-face {
+	font-family: 'GeoNMS';
+	src: url('https://atlasdatabase.github.io/fonts/geonms.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
