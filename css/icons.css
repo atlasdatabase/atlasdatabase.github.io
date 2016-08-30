@@ -1,3 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.isotope, .isotope i {
+    background-color: #ae252d;
+}
 .silicate, .silicate i{
   background-color: #05499a;
 }
@@ -10,6 +17,7 @@
 .precious, .precious i {
   background-color: #6F187E;
 }
+
 
 .carbon {
 background-image: url(https://atlasdatabase.github.io/img/e/carbon.png);
