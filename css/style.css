@@ -1,0 +1,458 @@
+html, body{
+  background-color:#FFF;
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  color:#404040;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.wrapper{
+  background-color:#FFF;
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.wrapper.toggled {
+  padding-left: 230px;
+  overflow: hidden;
+}
+.wrapper .overlay {
+  z-index: -1;
+  background-color: rgba(0,0,0,0.0);
+  transition:opacity 0.5s ease;
+  opacity: 0;
+  transition:opacity 0.5s ease;
+}
+.wrapper.toggled .overlay {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 999;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+.wrapper.toggled .left-menu {
+  left: 230px;
+}
+.left-menu {
+    z-index: 1000;
+    position: fixed;
+    left: 0px;
+    width: 230px;
+    height: 100%;
+    margin-left: -230px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+/* Left Menu Styles */
+.left-menu ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  border: none;
+}
+.left-menu ul li {
+  float: none;
+  display:block;
+  border-bottom:1px solid #333;
+  margin-bottom:0px;
+}
+.left-menu ul li a {
+  color:#333;
+  text-decoration:none;
+  border: none;
+  border-radius: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  line-height: 48px;
+  user-select: none;
+}
+.left-menu .nav-tabs>li.active>a,
+.left-menu .nav-tabs>li.active>a:focus,
+.left-menu .nav-tabs>li.active>a:hover {
+  background: #e8e8e8;
+  color: #333;
+  border: none;
+}
+.left-menu .nav>li>a:focus,
+.left-menu .nav>li>a:hover {
+  background: #e8e8e8;
+}
+.left-menu li i {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 20px;
+}
+.l-menu-item {
+  text-align: center;
+  padding: 0px 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Language Section */
+.langswitch {
+  margin-left: 15px;
+}
+.language {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  margin: 5px;
+}
+button.lang {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-color: transparent;
+  display: block;
+  float: left;
+  margin: 5px 5px 5px 5px;
+  border: none;
+}
+.en {
+  background-image: url(../img/flags/en.png);
+}
+.br {
+  background-image: url(../img/flags/br.png);
+}
+
+/* Header */
+header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color:#00b6bf;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0px;
+  transition: top 0.2s ease-in-out;
+  text-align: center;
+}
+.up {
+    top: -50px;
+}
+.down {
+    top: 0px;
+}
+header a,
+header a:hover,
+header a:focus{
+  color:#FFFFFF;
+  font-size:20px;
+}
+.show-menu {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+}
+.show-menu i {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+i.icon-menu {
+  background-image: url(../img/icons/menu.png);
+}
+.title {
+  display: inline-block;
+  font-size: 22px;
+  padding: 0px;
+  color: #fff;
+  margin: 0px;
+  line-height: 50px;
+  vertical-align: middle;
+  width: 100%;
+}
+.img-parallax {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: fixed;
+  height: 550px;
+}
+.img-parallax h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 1px #000;
+  font-family: 'GeoNMS';
+  letter-spacing: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  padding: 0;
+  line-height: 502px;
+  margin: 48px 0px 0px;
+  text-transform: uppercase;
+}
+.content {
+  position: relative;
+  top: 550px;
+  padding: 10px 20px;
+  background: #fff;
+  height: 1500px;
+}
+.bg1 {
+  background-image: url('../img/nms-main-bg-2560.jpg');
+}
+.bg2 {
+  background-image: url('../img/nms-bg-2560-2.jpg');
+}
+.bg3 {
+  background-image: url('http://i.imgur.com/H81xIUb.jpg');
+}
+.bg4 {
+  background-image: url('http://img.ibxk.com.br//2014/08/18/18162353940404.jpg');
+}
+.bg5 {
+  background-image: url('http://www.theoryofgaming.com/wp-content/uploads/2016/08/no-mans-sky-exosuit-inventory-menu.jpg');
+}
+.bg6 {
+  background-image: url('http://i.imgur.com/dosRA97.jpg');
+}
+.bg7 {
+  background-image: url('http://i.imgur.com/rFHg9KD.png');
+}
+
+
+/* Main Menu */
+.main-item {
+  text-align: center;
+  padding: 5px;
+  color: #333;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0,0,0,0.50);
+  margin: 10px 10px 15px;
+}
+.main-item i {
+  background-color: #55beba;
+  background-size: contain;
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+  font-size: 60px;
+  line-height: 75px;
+  vertical-align: middle;
+}
+.menu-name {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 75px;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+.center {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Content */
+.container {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+a {
+  color: #1977ff;
+}
+
+a:hover {
+  color: #004c7f;
+  text-decoration: none;
+}
+
+.fade {
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.shadow {
+  box-shadow: 0 0 6px rgba(0,0,0,0.50);
+}
+.blue {
+  color: #0099ff;
+}
+.teal {
+  color: #55beba;
+}
+.pc48px {
+  background-image: url(https://placehold.it/48x48/0099ff/ffffff.png)
+}
+.i75pxb {
+  background-image: url(https://placehold.it/75x75/0099ff/ffffff.png)
+}
+.pc1920x1080 {
+  background-image: url(https://placehold.it/1920x1080.png)
+}
+i.atlas-database {
+  display: block;
+  width: 100%;
+  height: 52px;
+  background-image: url(../img/atlas-database.png);
+  background-color: #44afaa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+}
+.blur {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+.content h3 {
+  font-family: GeoNMS;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #333;
+}
+hr {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100 */
+background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+height: 1px;
+margin: 0px 0px 15px;
+border: none;
+}
+/* Icons */
+.atlasdb-icon {
+  background-image: url(../img/icons/atlas-icon.png);
+}
+.galaxy-icon {
+  background-image: url(../img/icons/galaxy-icon.png);
+}
+.star-icon {
+  background-image: url(../img/icons/star-icon.png);
+}
+.resources-icon {
+  background-image: url(../img/icons/resources-icon.png);
+}
+.exosuit-icon {
+  background-image: url(../img/icons/exosuit-icon.png);
+}
+.starship-icon {
+  background-image: url(../img/icons/starship-icon.png);
+}
+.multitool-icon {
+  background-image: url(../img/icons/multitool-icon.png);
+}
+
+@font-face {
+  font-family: 'GeoNMS';
+  src: url('../fonts/geonms.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+::-webkit-scrollbar { 
+  display: none; 
+}
+@media (min-width: 980px) and (max-width: 1280px) {
+  .img-parallax {height: 400px;}
+  .content {top: 400px;}
+  .img-parallax h1 {
+    line-height: 315px;
+    font-size: 40px;
+    text-shadow: 2px 1px 1px #000;
+    letter-spacing: 15px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .img-parallax {height: 285px;}
+  .content {top: 285px;}
+  .img-parallax h1 {
+    line-height: 200px;
+    font-size: 40px;
+    text-shadow: 2px 1px 1px #000;
+    letter-spacing: 15px;
+  }
+}
+@media (min-width: 480px) and (max-width: 720px) {
+  .img-parallax {height: 208px;}
+  .content {top: 208px;}
+  .img-parallax h1 {
+    line-height: 160px;
+    font-size: 36px;
+    text-shadow: 2px 1px 1px #000;
+    letter-spacing: 10px;
+  }
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  .img-parallax {height: 188px;}
+  .content {top: 188px;}
+  .img-parallax h1 {
+    line-height: 140px;
+    font-size: 26px;
+    text-shadow: 2px 1px 1px #000;
+    letter-spacing: 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 360px) {
+  .img-parallax {height: 188px;}
+  .content {top: 188px;}
+  .img-parallax h1 {
+    line-height: 140px;
+    font-size: 22px;
+    text-shadow: 2px 1px 1px #000;
+    letter-spacing: 8px;
+  }
+}
+@media screen and (max-width: 320px) {
+  i.atlas-database {width: 110%;}
+  .img-parallax {height: 188px;}
+  .content {top: 188px;}
+  .img-parallax h1 {
+    line-height: 140px;
+    font-size: 22px;
+    text-shadow: 2px 1px 1px #000;
+    letter-spacing: 5px;
+  }
+}

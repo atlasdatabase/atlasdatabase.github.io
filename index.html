@@ -1,113 +1,239 @@
 <html>
 <head>
- <script src="http://code.jquery.com/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>
- <link href="https://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
- <script src="https://getbootstrap.com/dist/js/bootstrap.js"></script>
- <link href="style.css" rel="stylesheet" type="text/css" />
- <script src="js.js"></script>
+ <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+ <link href="css/style.css" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
  <title>JS Bin</title>
 </head>
-<body>
-  <div class="langswitch">
-  <button class="lang" data-lang="en">Eng</button>
-<button class="lang" data-lang="br">Por</button>
-  </div>
-  
-  <div class="holder">
-    <div id="titlebar" class="isotope">
-      <div class="image"><i class="plutonium"></i></div>
-      <div class="title">
-        <span class="name" data-i18n="plutonium">Plutonium</span>
-        <span class="type" data-i18n="isotope-rare">Isotope Element - Rare</span>
-      </div>
+
+<body class="wrapper">
+  <!-- left-menu -->
+  <div class="left-menu">
+    <div class="tabs-menu">
+      <ul class="nav nav-tabs" id="left-menu">
+        <li class="active">
+          <a href="#page0" data-toggle="tab">
+            <i class="atlasdb-icon"></i>
+            <span class="l-menu-item" data-i18n="Menu">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#page1" data-toggle="tab">
+            <i class="galaxy-icon"></i>
+            <span class="l-menu-item" data-i18n="Galaxies">Galaxies</span>
+            </a>
+        </li>
+        <li>
+          <a href="#page2" data-toggle="tab">
+            <i class="star-icon"></i>
+            <span class="l-menu-item" data-i18n="Stars">Stars</span>
+            </a>
+        </li>
+        <li>
+          <a href="#page3" data-toggle="tab">
+            <i class="resources-icon"></i>
+            <span class="l-menu-item" data-i18n="Resources">Resources</span>
+            </a>
+        </li>
+        <li>
+          <a href="#page4" data-toggle="tab">
+            <i class="exosuit-icon"></i>
+            <span class="l-menu-item" data-i18n="Exosuit">Exosuit</span>
+            </a>
+        </li>
+        <li>
+          <a href="#page5" data-toggle="tab">
+            <i class="starship-icon"></i>
+            <span class="l-menu-item" data-i18n="Starship">Starship</span>
+            </a>
+        </li>
+        <li>
+          <a href="#page6" data-toggle="tab">
+            <i class="multitool-icon"></i>
+            <span class="l-menu-item" data-i18n="Multitool">Multitool</span>
+            </a>
+        </li>
+      </ul>
+      <!-- /nav-tabs -->
     </div>
-    <div class="info isotope">
-      <span data-i18n="pu1">Extremely powerful element that can be used to charge weaponry, mining equipment and exosuit power packs.</span><p></p>
-      <span data-i18n="pu2">A vital ingredient in the creation of many advanced technologies, components and products.</span><p></p>
-      <span data-i18n="pu3">Found in red crystalline structures, and often within planetary cave networks.</span>
-    </div>
-  </div>
-  
-  <div class="holder">
-    <div id="titlebar" class="isotope">
-      <div class="image"><i class="carbon"></i></div>
-      <div class="title">
-        <span class="name" data-i18n="carbon">Carbon</span>
-        <span class="type" data-i18n="isotope-commom">Isotope Element - Commom</span>
-      </div>
-    </div>
-    <div class="info isotope">
-      <span data-i18n="c1">Important and abundant element used to recharge weaponry, mining equipment and exosuit life support.</span><p></p>
-      <span data-i18n="c2">Found in planetary trees, plants and other vegetation.</span><p></p>
-    </div>
-  </div>
-    
-  <div class="holder">
-    <div id="titlebar" class="silicate">
-      <div class="image"><i class="heridium"></i></div>
-      <div class="title">
-        <span class="name" data-i18n="heridium">Heridium</span>
-        <span class="type" data-i18n="silicate-common">Silicate Element - Common</span>
-      </div>
-    </div>
-    <div class="info silicate">
-      <span data-i18n="hr1">Element used in the creation of components vital to space exploration.</span><p></p>
-      <span data-i18n="hr2">Found in planetary terrain. Often highlighted by holographic cubes in user's visor after local scans.</span>
-    </div>
-  </div>
-  
-  <div class="holder">
-    <div id="titlebar" class="oxide">
-      <div class="image"><i class="iron"></i></div>
-      <div class="title">
-        <span class="name" data-i18n="iron">Iron</span>
-        <span class="type" data-i18n="oxide-common">Oxide Element - Common</span>
-      </div>
-    </div>
-    <div class="info oxide">
-      <span data-i18n="fe1">Mined element used to build and recharge defensive technologies.</span><p></p>
-      <span data-i18n="fe2">Found in rock formations and areas of geological interest.</span>
+    <!-- /tabs-menu -->
+    <div class="langswitch">
+      <span class="language" data-i18n="Language">Language:</span>
+      <button class="lang en" data-lang="en"></button>
+      <button class="lang br" data-lang="br"></button>
     </div>
   </div>
-  
-    
-    
-    
-    
-    
-  <!-- FlintHatchet89 -->
-  <!--
-  <div class="holder">
-  <table class="details">
-  <tr><th colspan="2"><div class="limit"><span class="title" data-i18n="flint-hatchet">Flint Hatchet</span><span class="id"># 89</span></div></th></tr>
-  <tr><td rowspan="4" class="img"><i class="i89c"></i></td></tr>
-  <tr><td class="rarity" data-i18n="common-item">Common Item</td></tr>
-  <tr><td class="type" data-i18n="type-melee">Melee Weapon</td></tr>
-  <tr><td class="stack">1/1</td></tr>
-</table>
-    <div role="button" data-toggle="collapse" href="#info-89" aria-expanded="false" class="moreinfo" data-i18n="info">Info</div>
-      <div class="collapse" id="info-89">
-        <div class="stats">
-          <div class="n">-25<span class="damage" data-i18n="damage">DAMAGE</span></div>
-          <div class="sn">-1<span class="st" data-i18n="chopping-power">Chopping Power</span></div>
-          <div class="sn">-25<span class="st" data-i18n="player-damage">Player Damage</span></div>
-          <div class="sn">-30<span class="st" data-i18n="creature-damage">Creature Damage</span></div>
+  <!-- /left-menu -->
+
+  <div class="container">
+    <div class="page tab-content">
+      <div class="tab-pane fade in active" id="page0">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title">Home</span>
+        </header>
+        <div class="img-parallax bg1">
+          <h1>Atlas Database</h1>
         </div>
-    <div class="info" data-i18n="equip-melee">Equip this as a melee weapon.</div>
-  </div>
-    <div role="button" data-toggle="collapse" href="#craft-89" aria-expanded="false" class="howtocraft" data-i18n="how-to-craft">How to Craft</div>
-<div class="collapse" id="craft-89">
-    <div class="crafting">
-      <span class="materials" data-i18n="materials">Materials</span>
-    </div>
-  </div>
-</div>
- End FlintHatchet89 -->
-    
-    
-  </div><!-- container -->
-</body>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3>Universe</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <div class="center">
+            <div class="main-item" data-toggle="tab" href="#page1">
+              <span class="menu-name" data-i18n="Galaxies">Galaxies</span>
+              <i class="galaxy-icon"></i>
+            </div>
+            <div class="main-item" data-toggle="tab" href="#page2">
+              <span class="menu-name" data-i18n="Stars">Stars</span>
+              <i class="star-icon"></i>
+            </div>
+            <div class="main-item" data-toggle="tab" href="#page3">
+              <span class="menu-name" data-i18n="Resources">Resources</span>
+              <i class="resources-icon"></i>
+            </div>
+            <div class="main-item" data-toggle="tab" href="#page4">
+              <span class="menu-name" data-i18n="Exosuit">Exosuit</span>
+              <i class="exosuit-icon"></i>
+            </div>
+            <div class="main-item" data-toggle="tab" href="#page5">
+              <span class="menu-name" data-i18n="Starship">Starship</span>
+              <i class="starship-icon"></i>
+            </div>
+            <div class="main-item" data-toggle="tab" href="#page6">
+              <span class="menu-name" data-i18n="Multitool">Multitool</span>
+              <i class="multitool-icon"></i>
+            </div>
+          </div>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>
+      <div class="tab-pane fade in" id="page1">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title" data-i18n="Galaxies">Galaxies</span>
+        </header>
+        <div class="img-parallax bg2">
+          <h1 data-i18n="Galaxies">Galaxies</h1>
+        </div>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3 data-i18n="Galaxies">Galaxies</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>
+      <div class="tab-pane fade" id="page2">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title" data-i18n="Stars">Stars</span>
+        </header>
+        <div class="img-parallax bg3">
+          <h1 data-i18n="Stars">Stars</h1>
+        </div>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3 data-i18n="Stars">Stars</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>
+      <div class="tab-pane fade" id="page3">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title" data-i18n="Resources">Resources</span>
+        </header>
+        <div class="img-parallax bg4">
+          <h1 data-i18n="Resources">Resources</h1>
+        </div>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3 data-i18n="Resources">Resources</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>
+      <div class="tab-pane fade" id="page4">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title" data-i18n="Exosuit">Exosuit</span>
+        </header>
+        <div class="img-parallax bg5">
+          <h1 data-i18n="Exosuit">Exosuit</h1>
+        </div>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3 data-i18n="Exosuit">Exosuit</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>
+      <div class="tab-pane fade" id="page5">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title" data-i18n="Starship">Starship</span>
+        </header>
+        <div class="img-parallax bg6">
+          <h1 data-i18n="Starship">Starship</h1>
+        </div>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3 data-i18n="Starship">Starship</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>>
+      <div class="tab-pane fade" id="page6">
+        <header>
+          <a href="#" class="show-menu"><i class="icon-menu"></i></a>
+          <span class="title" data-i18n="Multitool">Multitool</span>
+        </header>
+        <div class="img-parallax bg7">
+          <h1 data-i18n="Multitool">Multitool</h1>
+        </div>
+        <div class="content">
+          <a href="#c" data-toggle="tab">
+            <h3 data-i18n="Multitool">Multitool</h3>
+            <hr></hr>
+          </a>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan. Aliquam in felis sit amet augue First Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <p>First Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+        </div>
+        <!-- /content -->
+      </div>
+    </div><!-- /tab-content -->
+  </div><!-- /container -->
+  <div class="overlay"></div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/i18next-1.6.3.min.js"></script>
+  <script type="text/javascript" src="js/language.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</body><!-- /wrapper -->
 </html>
