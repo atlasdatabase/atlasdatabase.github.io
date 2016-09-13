@@ -170,7 +170,7 @@ header a:focus{
   text-align: center;
   display: inline-block;
   position: absolute;
-  left: 0px;
+  right: 0px;
 }
 .show-menu i {
   width: 50px;
@@ -227,19 +227,19 @@ i.icon-menu {
   background-image: url('../img/nms-bg-2560-2.jpg');
 }
 .bg3 {
-  background-image: url('http://i.imgur.com/H81xIUb.jpg');
+  background-image: url('../img/starsbg.jpg');
 }
 .bg4 {
-  background-image: url('http://img.ibxk.com.br//2014/08/18/18162353940404.jpg');
+  background-image: url('../img/resourcesbg.jpg');
 }
 .bg5 {
-  background-image: url('http://www.theoryofgaming.com/wp-content/uploads/2016/08/no-mans-sky-exosuit-inventory-menu.jpg');
+  background-image: url('../img/exosuitbg.jpg');
 }
 .bg6 {
-  background-image: url('http://i.imgur.com/dosRA97.jpg');
+  background-image: url('../img/starshipbg.jpg');
 }
 .bg7 {
-  background-image: url('http://i.imgur.com/rFHg9KD.png');
+  background-image: url('../img/multitoolbg.jpg');
 }
 
 
