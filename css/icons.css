@@ -1,133 +1,130 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-}
-.isotope, .isotope i {
-    background-color: #ae252d;
-}
-.silicate, .silicate i{
-  background-color: #05499a;
-}
-.oxide, .oxide i{
-  background-color: #e0a10d;
-}
-.neutral, .neutral i {
-  background-color: #5FCC93;
-}
-.precious, .precious i {
-  background-color: #6F187E;
-}
+.activated_cadmium {background-image: url(../img/e/activated_cadmium.png);}
+.activated_copper {background-image: url(../img/e/activated_copper.png);}
+.activated_emeril {background-image: url(../img/e/activated_emeril.png);}
+.activated_indium {background-image: url(../img/e/activated_indium.png);}
+.ammonia {background-image: url(../img/e/ammonia.png);}
+.cactus_flesh {background-image: url(../img/e/cactus_flesh.png);}
+.cadmium {background-image: url(../img/e/cadmium.png);}
+.carbon {background-image: url(../img/e/carbon.png);}
+.chlorine {background-image: url(../img/e/chlorine.png);}
+.chromatic_metal {background-image: url(../img/e/chromatic_metal.png);}
+.cobalt {background-image: url(../img/e/cobalt.png);}
+.condensed_carbon {background-image: url(../img/e/condensed_carbon.png);}
+.copper {background-image: url(../img/e/copper.png);}
+.coprite {background-image: url(../img/e/coprite.png);}
+.deuterium {background-image: url(../img/e/deuterium.png);}
+.di_hydrogen {background-image: url(../img/e/di_hydrogen.png);}
+.dioxite {background-image: url(../img/e/dioxite.png);}
+.emeril {background-image: url(../img/e/emeril.png);}
+.ferrite_dust {background-image: url(../img/e/ferrite_dust.png);}
+.frost_crystal {background-image: url(../img/e/frost_crystal.png);}
+.fungal_mould {background-image: url(../img/e/fungal_mould.png);}
+.gamma_root {background-image: url(../img/e/gamma_root.png);}
+.gold {background-image: url(../img/e/gold.png);}
+.indium {background-image: url(../img/e/indium.png);}
+.ionised_cobalt {background-image: url(../img/e/ionised_cobalt.png);}
+.kelp_sac {background-image: url(../img/e/kelp_sac.png);}
+.living_slime {background-image: url(../img/e/living_slime.png);}
+.magnetised_ferrite {background-image: url(../img/e/magnetised_ferrite.png);}
+.marrow_bulb {background-image: url(../img/e/marrow_bulb.png);}
+.mordite {background-image: url(../img/e/mordite.png);}
+.nitrogen {background-image: url(../img/e/nitrogen.png);}
+.oxygen {background-image: url(../img/e/oxygen.png);}
+.paraffinium {background-image: url(../img/e/paraffinium.png);}
+.phosphorus {background-image: url(../img/e/phosphorus.png);}
+.platinum {background-image: url(../img/e/platinum.png);}
+.pugneum {background-image: url(../img/e/pugneum.png);}
+.pure_ferrite {background-image: url(../img/e/pure_ferrite.png);}
+.pyrite {background-image: url(../img/e/pyrite.png);}
+.radon {background-image: url(../img/e/radon.png);}
+.residual_goop {background-image: url(../img/e/residual_goop.png);}
+.runaway_mould {background-image: url(../img/e/runaway_mould.png);}
+.rusted_metal {background-image: url(../img/e/rusted_metal.png);}
+.salt {background-image: url(../img/e/salt.png);}
+.silver {background-image: url(../img/e/silver.png);}
+.sodium {background-image: url(../img/e/sodium.png);}
+.sodium_nitrate {background-image: url(../img/e/sodium_nitrate.png);}
+.solanium {background-image: url(../img/e/solanium.png);}
+.star_bulb {background-image: url(../img/e/star_bulb.png);}
+.sulphurine {background-image: url(../img/e/sulphurine.png);}
+.tritium {background-image: url(../img/e/tritium.png);}
+.uranium {background-image: url(../img/e/uranium.png);}
+.viscous_fluids {background-image: url(../img/e/viscous_fluids.png);}
 
-
-.carbon {
-background-image: url(https://atlasdatabase.github.io/img/e/carbon.png);
-}
-.thamium9 {
-background-image: url(https://atlasdatabase.github.io/img/e/thamium9.png);
-}
-.plutonium {
-background-image: url(https://atlasdatabase.github.io/img/e/plutonium.png);
-}
-.heridium {
-background-image: url(https://atlasdatabase.github.io/img/e/heridium.png);
-}
-.platinum {
-background-image: url(https://atlasdatabase.github.io/img/e/platinum.png);
-}
-.chrysonite {
-  background-image: url(https://atlasdatabase.github.io/img/e/chrysonite.png);
-}
-.iron {
-  background-image: url(https://atlasdatabase.github.io/img/e/iron.png);
-}
-.zinc {
-  background-image: url(https://atlasdatabase.github.io/img/e/zinc.png);
-}
-.titanium {
-  background-image: url(https://atlasdatabase.github.io/img/e/titanium.png);
-}
-.nickel {
-  background-image: url(https://atlasdatabase.github.io/img/e/nickel.png);
-}
-.iridium {
-  background-image: url(https://atlasdatabase.github.io/img/e/iridium.png);
-}
-.copper {
-  background-image: url(https://atlasdatabase.github.io/img/e/copper.png);
-}
-.gold {
-  background-image: url(https://atlasdatabase.github.io/img/e/gold.png);
-}
-.aluminium {
-  background-image: url(https://atlasdatabase.github.io/img/e/aluminium.png);
-}
-.omegon {
-  background-image: url(https://atlasdatabase.github.io/img/e/omegon.png);
-}
-.radnox {
-  background-image: url(https://atlasdatabase.github.io/img/e/radnox.png);
-}
-.murrine {
-  background-image: url(https://atlasdatabase.github.io/img/e/murrine.png);
-}
-.calium {
-  background-image: url(https://atlasdatabase.github.io/img/e/calium.png);
-}
-
-.hud-isotopes {
-  background-image: url(https://atlasdatabase.github.io/img/icons/hud-isotopes.png);
-}
-.hud-silicates {
-  background-image: url(https://atlasdatabase.github.io/img/icons/hud-silicates.png);
-}
-.hud-oxides {
-  background-image: url(https://atlasdatabase.github.io/img/icons/hud-oxides.png);
-}
-.hud-neutrals {
-  background-image: url(https://atlasdatabase.github.io/img/icons/hud-neutrals.png);
-}
-.hud-precious {
-  background-image: url(https://atlasdatabase.github.io/img/icons/hud-precious.png);
-}
-.scan-isotopes {
-  background-image: url(https://atlasdatabase.github.io/img/icons/scan-isotopes.png);
-}
-.scan-silicates {
-  background-image: url(https://atlasdatabase.github.io/img/icons/scan-silicates.png);
-}
-.scan-oxides {
-  background-image: url(https://atlasdatabase.github.io/img/icons/scan-oxides.png);
-}
-.scan-neutrals {
-  background-image: url(https://atlasdatabase.github.io/img/icons/scan-neutrals.png);
-}
-.scan-precious {
-  background-image: url(https://atlasdatabase.github.io/img/icons/scan-precious.png);
-}
-.units {
-  background-image: url(https://atlasdatabase.github.io/img/icons/units-grey-128.png);
-}
-.units-grey {
-  background-image: url(https://atlasdatabase.github.io/img/icons/units-grey-128.png);
-}
-.units-light {
-  background-image: url(https://atlasdatabase.github.io/img/icons/units-light-128.png);
-}
-
-.life-support {
-  background-image: url(https://atlasdatabase.github.io/img/tech/life-support.png);
-}
-.jetpack-mod {
-  background-image: url(https://atlasdatabase.github.io/img/tech/jetpack-mod.png);
-}
-.jetpack-tech {
-  background-image: url(https://atlasdatabase.github.io/img/tech/jettech.png);
-}
-
-
-@font-face {
-	font-family: 'GeoNMS';
-	src: url('https://atlasdatabase.github.io/fonts/geonms.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
-}
+.acid {background-image: url(../img/products/acid.png);}
+.advanced_ion_battery {background-image: url(../img/products/advanced_ion_battery.png);}
+.antimatter {background-image: url(../img/products/antimatter.png);}
+.antimatter_housing {background-image: url(../img/products/antimatter_housing.png);}
+.aronium {background-image: url(../img/products/aronium.png);}
+.atlaspass {background-image: url(../img/products/atlaspass.png);}
+.captured_nanode {background-image: url(../img/products/captured_nanode.png);}
+.carbon_crystal {background-image: url(../img/products/carbon_crystal.png);}
+.carbon_nanotubes {background-image: url(../img/products/carbon_nanotubes.png);}
+.chlorite_lattice {background-image: url(../img/products/chlorite_lattice.png);}
+.circuit_board {background-image: url(../img/products/circuit_board.png);}
+.cobalt_mirror {background-image: url(../img/products/cobalt_mirror.png);}
+.cryo_pump {background-image: url(../img/products/cryo_pump.png);}
+.cryogenic_chamber {background-image: url(../img/products/cryogenic_chamber.png);}
+.dark_matter {background-image: url(../img/products/dark_matter.png);}
+.dawns_end {background-image: url(../img/products/dawns_end.png);}
+.destablised_sodium {background-image: url(../img/products/destablised_sodium.png);}
+.di_hidrogen_jelly {background-image: url(../img/products/di_hidrogen_jelly.png);}
+.dirty_bronze {background-image: url(../img/products/dirty_bronze.png);}
+.englobed_shade {background-image: url(../img/products/englobed_shade.png);}
+.enriched_carbon {background-image: url(../img/products/enriched_carbon.png);}
+.explosive_drones {background-image: url(../img/products/explosive_drones.png);}
+.frigate_fuel {background-image: url(../img/products/frigate_fuel.png);}
+.fuel_oxidiser {background-image: url(../img/products/fuel_oxidiser.png);}
+.fusion_accelerant {background-image: url(../img/products/fusion_accelerant.png);}
+.fusion_ignitor {background-image: url(../img/products/fusion_ignitor.png);}
+.geodesite {background-image: url(../img/products/geodesite.png);}
+.glass {background-image: url(../img/products/glass.png);}
+.grantine {background-image: url(../img/products/grantine.png);}
+.heart_of_the_sun {background-image: url(../img/products/heart_of_the_sun.png);}
+.heat_capacitor {background-image: url(../img/products/heat_capacitor.png);}
+.hermetic_seal {background-image: url(../img/products/hermetic_seal.png);}
+.herox {background-image: url(../img/products/herox.png);}
+.holographic_analyser {background-image: url(../img/products/holographic_analyser.png);}
+.hot_ice {background-image: url(../img/products/hot_ice.png);}
+.ion_battery {background-image: url(../img/products/ion_battery.png);}
+.iridesite {background-image: url(../img/products/iridesite.png);}
+.lemmium {background-image: url(../img/products/lemmium.png);}
+.life_support_gel {background-image: url(../img/products/life_support_gel.png);}
+.liquid_explosive {background-image: url(../img/products/liquid_explosive.png);}
+.living_glass {background-image: url(../img/products/living_glass.png);}
+.lubricant {background-image: url(../img/products/lubricant.png);}
+.magno_gold {background-image: url(../img/products/magno_gold.png);}
+.metal_plating {background-image: url(../img/products/metal_plating.png);}
+.microprocessor {background-image: url(../img/products/microprocessor.png);}
+.mind_arc {background-image: url(../img/products/mind_arc.png);}
+.mind_control_device {background-image: url(../img/products/mind_control_device.png);}
+.mineral_compressor {background-image: url(../img/products/mineral_compressor.png);}
+.modified_quanta {background-image: url(../img/products/modified_quanta.png);}
+.nitrogen_salt {background-image: url(../img/products/nitrogen_salt.png);}
+.noospheric_orb {background-image: url(../img/products/noospheric_orb.png);}
+.novae_reclaiment {background-image: url(../img/products/novae_reclaiment.png);}
+.organic_catalyst {background-image: url(../img/products/organic_catalyst.png);}
+.oxygen_capsule {background-image: url(../img/products/oxygen_capsule.png);}
+.oxygen_filter {background-image: url(../img/products/oxygen_filter.png);}
+.photic_jade {background-image: url(../img/products/photic_jade.png);}
+.poly_fibre {background-image: url(../img/products/poly_fibre.png);}
+.portable_reactor {background-image: url(../img/products/portable_reactor.png);}
+.projectile_ammunition {background-image: url(../img/products/projectile_ammunition.png);}
+.quad_servo {background-image: url(../img/products/quad_servo.png);}
+.quantum_processor {background-image: url(../img/products/quantum_processor.png);}
+.rare_metal_element {background-image: url(../img/products/rare_metal_element.png);}
+.salt_refractor {background-image: url(../img/products/salt_refractor.png);}
+.salvaged_technology {background-image: url(../img/products/salvaged_technology.png);}
+.semiconductor {background-image: url(../img/products/semiconductor.png);}
+.sodium_diode {background-image: url(../img/products/sodium_diode.png);}
+.starship_launch_fuel {background-image: url(../img/products/starship_launch_fuel.png);}
+.stasis_device {background-image: url(../img/products/stasis_device.png);}
+.state_phasure {background-image: url(../img/products/state_phasure.png);}
+.superconductor {background-image: url(../img/products/superconductor.png);}
+.superoxide_crystal {background-image: url(../img/products/superoxide_crystal.png);}
+.tetracobalt {background-image: url(../img/products/tetracobalt.png);}
+.thermic_condensate {background-image: url(../img/products/thermic_condensate.png);}
+.unstable_gel {background-image: url(../img/products/unstable_gel.png);}
+.unstable_plasma {background-image: url(../img/products/unstable_plasma.png);}
+.walker_brain {background-image: url(../img/products/walker_brain.png);}
+.warp_cell {background-image: url(../img/products/warp_cell.png);}
